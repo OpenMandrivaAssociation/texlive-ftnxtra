@@ -1,3 +1,9 @@
+# revision 17317
+# category Package
+# catalog-ctan /macros/latex/contrib/ftnxtra
+# catalog-date 2010-03-03 22:26:40 +0100
+# catalog-license lppl
+# catalog-version 0.1
 Name:		texlive-ftnxtra
 Version:	0.1
 Release:	1
@@ -44,6 +50,7 @@ environment, and \chapter and other \section-like commands.
 #- source
 %doc %{_texmfdistdir}/source/latex/ftnxtra/ftnxtra.dtx
 %doc %{_texmfdistdir}/source/latex/ftnxtra/ftnxtra.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ environment, and \chapter and other \section-like commands.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

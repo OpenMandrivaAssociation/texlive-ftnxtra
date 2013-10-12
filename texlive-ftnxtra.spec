@@ -1,13 +1,13 @@
-# revision 17317
+# revision 29652
 # category Package
 # catalog-ctan /macros/latex/contrib/ftnxtra
-# catalog-date 2010-03-03 22:26:40 +0100
+# catalog-date 2013-04-04 15:10:30 +0200
 # catalog-license lppl
 # catalog-version 0.1
 Name:		texlive-ftnxtra
 Version:	0.1
-Release:	2
-Summary:	Extends the applicability of the \footnote command
+Release:	3
+Summary:	Extend the applicability of the \footnote command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ftnxtra
 License:	LPPL
@@ -50,17 +50,3 @@ environment, and \chapter and other \section-like commands.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-2
-+ Revision: 752158
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 718512
-- texlive-ftnxtra
-- texlive-ftnxtra
-- texlive-ftnxtra
-- texlive-ftnxtra
-

@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-ftnxtra
 Version:	0.1
-Release:	2
+Release:	3
 Summary:	Extends the applicability of the \footnote command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ftnxtra

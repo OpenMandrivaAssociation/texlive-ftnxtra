@@ -1,6 +1,6 @@
 Name:		texlive-ftnxtra
 Version:	29652
-Release:	1
+Release:	2
 Summary:	Extend the applicability of the \footnote command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ftnxtra

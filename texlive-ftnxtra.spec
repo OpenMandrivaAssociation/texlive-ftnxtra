@@ -3,7 +3,7 @@ Version:	29652
 Release:	2
 Summary:	Extend the applicability of the \footnote command
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ftnxtra
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ftnxtra
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ftnxtra.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ftnxtra.doc.r%{version}.tar.xz
